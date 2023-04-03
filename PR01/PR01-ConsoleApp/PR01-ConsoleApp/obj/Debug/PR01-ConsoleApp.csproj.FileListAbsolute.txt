@@ -1,0 +1,8 @@
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\bin\Debug\PR01-ConsoleApp.exe.config
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\bin\Debug\PR01-ConsoleApp.exe
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\bin\Debug\PR01-ConsoleApp.pdb
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\obj\Debug\PR01-ConsoleApp.csproj.AssemblyReference.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\obj\Debug\PR01-ConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\obj\Debug\PR01-ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\obj\Debug\PR01-ConsoleApp.exe
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR01\PR01-ConsoleApp\PR01-ConsoleApp\obj\Debug\PR01-ConsoleApp.pdb
