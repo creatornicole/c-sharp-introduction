@@ -17,31 +17,49 @@ namespace PR01_ConsoleApp
 
             Console.WriteLine("Berechnung Flächeninhalt eines Rechtecks:");
             Console.WriteLine("Breite:");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            int breite = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Länge:");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            int laenge = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Über Rückgabewert der Methode: " + berechneFlaecheninhaltMitRueckgabe(num1, num2));
+            Console.WriteLine("Über Rückgabewert der Methode: " + berechneFlaecheninhaltMitRueckgabe(breite, laenge));
 
-            berechneFlaecheninhalt(num1, num2);
+            berechneFlaecheninhalt(breite, laenge);
             Console.WriteLine("Über Zuweisung an globale Variable: " + rechteckA);
 
             Console.WriteLine("===================");
-            
 
+            Console.WriteLine("Berechnung Flächeninhalt eines Quadrats:");
+            Console.WriteLine("Länge der Seiten:");
+            int quadratSeite = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Über Rückgabewert der Methode: " + berechneFlaecheninhalt(quadratSeite));
+
+            Console.WriteLine("===================");
         }
 
         /// <summary>
         /// 
-        /// Berechnet Flächeninhalt eines Rechtecks auf Grundlage uebergebener Werte
+        /// Berechnet Flaecheninhalt eines Quadrats auf Grundlage uebergebener Werte
+        /// 
+        /// </summary>
+        /// <param name="seitenlaenge"> Seitelaenge des Quadrats </param>
+        /// <returns> Flaecheninhalt des Qudrats </returns>
+        public static int berechneFlaecheninhalt(int seitenlaenge)
+        {
+            return seitenlaenge * seitenlaenge;
+        }
+
+        /// <summary>
+        /// 
+        /// Berechnet Flaecheninhalt eines Rechtecks auf Grundlage uebergebener Werte
         /// 
         /// </summary>
         /// 
-        /// <param name="a"> Breite des Rechtecks </param>
-        /// <param name="b"> Laenge des Rechtecks </param>
-        public static void berechneFlaecheninhalt(int a, int b)
+        /// <param name="breite"> Breite des Rechtecks </param>
+        /// <param name="laenge"> Laenge des Rechtecks </param>
+        public static void berechneFlaecheninhalt(int breite, int laenge)
         {
-            rechteckA = a * b;
+            rechteckA = breite * laenge;
         }
 
         /// <summary>
@@ -50,12 +68,12 @@ namespace PR01_ConsoleApp
         /// mit Rueckgabewert
         /// 
         /// </summary>
-        /// <param name="a"> Breite des Rechtecks </param>
-        /// <param name="b"> Laenge des Rechtecks </param>
+        /// <param name="breite"> Breite des Rechtecks </param>
+        /// <param name="laenge"> Laenge des Rechtecks </param>
         /// <returns> Flaecheninhalt des Rechtecks </returns>
-        public static int berechneFlaecheninhaltMitRueckgabe(int a, int b)
+        public static int berechneFlaecheninhaltMitRueckgabe(int breite, int laenge)
         {
-            return a * b;
+            return breite * laenge;
         }
 
     }
