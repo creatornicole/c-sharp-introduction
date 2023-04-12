@@ -1,0 +1,15 @@
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\bin\Release\net6.0\PR02.exe
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\bin\Release\net6.0\PR02.deps.json
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\bin\Release\net6.0\PR02.runtimeconfig.json
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\bin\Release\net6.0\PR02.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\bin\Release\net6.0\PR02.pdb
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.csproj.AssemblyReference.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.AssemblyInfoInputs.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.AssemblyInfo.cs
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.csproj.CoreCompileInputs.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\refint\PR02.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.pdb
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\PR02.genruntimeconfig.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR02\PR02\obj\Release\net6.0\ref\PR02.dll
