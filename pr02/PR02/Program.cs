@@ -46,6 +46,9 @@ namespace PR01_ConsoleApp
             Console.WriteLine(p1.Vorname);
             p1.Vorname = "Moriz";
             Console.WriteLine(p1.Vorname);
+
+            Console.WriteLine("Press Key to close CMD.");
+            Console.ReadKey(); //prevents CMD from closing automatically after running
         }
 
         /// <summary>
