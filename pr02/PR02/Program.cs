@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PR02;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,6 +36,16 @@ namespace PR01_ConsoleApp
             Console.WriteLine("Über Rückgabewert der Methode: " + berechneFlaecheninhalt(quadratSeite));
 
             Console.WriteLine("===================");
+
+            Console.WriteLine("Erstelle Personen...");
+
+            Person p1 = new Person("Mustermann", "Max", 21, "Mittweida", "Technikumplatz 17", "23.03.2002");
+
+            Console.WriteLine("1 Person wurde erstellt:");
+
+            Console.WriteLine(p1.Vorname);
+            p1.Vorname = "Moriz";
+            Console.WriteLine(p1.Vorname);
         }
 
         /// <summary>
