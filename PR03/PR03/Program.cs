@@ -1,6 +1,7 @@
 ﻿using PR02;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace PR01_ConsoleApp
 
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("===================");
 
             Console.WriteLine("Erstelle Personen...");
@@ -77,18 +79,56 @@ namespace PR01_ConsoleApp
             Console.WriteLine("Uhrzeit der Ausführung: " + time);
 
             Console.WriteLine("Datum vor 345 Tagen: " + now.AddDays(-345).ToString("dd.MM.yyyy"));
+            */
 
             Console.WriteLine("===================");
 
             Console.WriteLine("Geben Sie eine Zeichenkette ein...");
             str = Console.ReadLine();
 
-            int loopCounts = 10;
+            int loopCounts = 1000;
             Console.WriteLine("Zeichenkette wird " + loopCounts + " an sich selbst gehangen:");
 
-            //TODO: Complete Task 4 of PR03
+            Stopwatch sw = Stopwatch.StartNew();
+            Console.WriteLine(duplicateString(str, loopCounts));
+            sw.Stop();
+            Console.WriteLine("Vergangene Zeit der Duplikation mit Schleife: " + sw.ElapsedMilliseconds + "ms.");
+
+            sw = Stopwatch.StartNew();
+            Console.WriteLine(duplicateStringAppend(str, loopCounts));
+            sw.Stop();
+            Console.WriteLine("Vergangene Zeit der Duplikation mit StringBuilder und Append-Funktion: " + sw.ElapsedMilliseconds + "ms.");
 
 
+        }
+
+
+        private static string duplicateStringAppend(string str, int num)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < num; i++)
+            {
+                sb.Append(str + " ");
+            }
+            return sb.ToString();
+        }
+
+        /// <summary>
+        /// 
+        /// Adds String str to str for num times in loop
+        /// 
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        private static string duplicateString(string str, int num)
+        {
+            string duplStr = "";
+            for(int i = 0; i < num; i++)
+            {
+                duplStr += str + " ";
+            }
+            return duplStr;
         }
 
         /// <summary>
