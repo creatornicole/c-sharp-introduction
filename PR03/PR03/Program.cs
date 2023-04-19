@@ -87,18 +87,20 @@ namespace PR01_ConsoleApp
             str = Console.ReadLine();
 
             int loopCounts = 1000;
-            Console.WriteLine("Zeichenkette wird " + loopCounts + " an sich selbst gehangen:");
+            Console.WriteLine("Zeichenkette wird {0} an sich selbst gehangen:", loopCounts);
 
-            Stopwatch sw = Stopwatch.StartNew();
+            DateTime dateBefore = DateTime.Now;
             Console.WriteLine(duplicateString(str, loopCounts));
-            sw.Stop();
-            Console.WriteLine("Vergangene Zeit der Duplikation mit Schleife: " + sw.ElapsedMilliseconds + "ms.");
+            DateTime dateAfter = DateTime.Now;
+            TimeSpan interval = dateBefore - dateAfter;
+            Console.WriteLine("Vergangene Zeit der Duplikation mit Schleife: {0} ms.", interval);
 
-            sw = Stopwatch.StartNew();
-            Console.WriteLine(duplicateStringAppend(str, loopCounts));
-            sw.Stop();
-            Console.WriteLine("Vergangene Zeit der Duplikation mit StringBuilder und Append-Funktion: " + sw.ElapsedMilliseconds + "ms.");
 
+            dateBefore = DateTime.Now;
+            Console.WriteLine(duplicateString(str, loopCounts));
+            dateAfter = DateTime.Now;
+            interval = dateBefore - dateAfter;
+            Console.WriteLine("Vergangene Zeit der Duplikation mit StringBuilder und Append-Funktion: {0} ms.", interval);
 
         }
 
