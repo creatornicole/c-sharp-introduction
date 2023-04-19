@@ -17,7 +17,6 @@ namespace PR01_ConsoleApp
 
         static void Main(string[] args)
         {
-            /*
             Console.WriteLine("===================");
 
             Console.WriteLine("Erstelle Personen...");
@@ -79,7 +78,6 @@ namespace PR01_ConsoleApp
             Console.WriteLine("Uhrzeit der Ausführung: " + time);
 
             Console.WriteLine("Datum vor 345 Tagen: " + now.AddDays(-345).ToString("dd.MM.yyyy"));
-            */
 
             Console.WriteLine("===================");
 
@@ -104,7 +102,14 @@ namespace PR01_ConsoleApp
 
         }
 
-
+        /// <summary>
+        /// 
+        /// Adds String str to str with StringBuilder and Append-Method
+        /// 
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
         private static string duplicateStringAppend(string str, int num)
         {
             StringBuilder sb = new StringBuilder();
