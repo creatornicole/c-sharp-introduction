@@ -23,12 +23,24 @@ namespace PR04
         public MainWindow()
         {
             InitializeComponent();
-            
+            textBox.Focus(); //Set Focus to TextBox when starting Application
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+        }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            String textBoxValue = textBox.Text.ToLower();
+            if(textBoxValue.Equals("schließen"))
+            {
+                //Do nothing
+            } else
+            {
+                Close(); //Close Application
+            }
         }
     }
 }
