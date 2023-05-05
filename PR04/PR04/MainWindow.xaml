@@ -13,7 +13,9 @@
             <ColumnDefinition Width="53*"/>
         </Grid.ColumnDefinitions>
         <TextBox Name="textBox" HorizontalAlignment="Left" Margin="340,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <Button Name="closeBtn" Content="Close" HorizontalAlignment="Left" Margin="491,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.525,0.951" Click="Button_Click"/>
+        <Button Name="closeBtn" Content="Close" HorizontalAlignment="Left" Margin="491,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.525,0.951" Click="Button_Click_Close"/>
+        <Button Name="calendarBtn" Content="Calendar" HorizontalAlignment="Left" Margin="543,130,0,0" VerticalAlignment="Top" Click="Button_Click_Show_Calendar"/>
+        <Calendar HorizontalAlignment="Left" Margin="234,526,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

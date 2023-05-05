@@ -31,13 +31,33 @@ namespace PR04
             
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// 
+        /// Close window on button click except textbox contains "schließen"
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click_Close(object sender, RoutedEventArgs e)
         {
-            String textBoxValue = textBox.Text.ToLower();
+            String textBoxValue = textBox.Text.ToLower(); //ignore large and lower case
             if(!textBoxValue.Equals("schließen"))
             {
                 Close(); //Close Application
             }
+        }
+
+        /// <summary>
+        /// 
+        /// Open new Window with Calendar on Button Click
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click_Show_Calendar(object sender, RoutedEventArgs e)
+        {
+            CalendarWindow calendarWindow = new CalendarWindow();
+            calendarWindow.ShowDialog(); //locks current window and opens new one
         }
     }
 }

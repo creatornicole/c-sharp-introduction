@@ -1,0 +1,15 @@
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\bin\Debug\net6.0\PR03.exe
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\bin\Debug\net6.0\PR03.deps.json
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\bin\Debug\net6.0\PR03.runtimeconfig.json
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\bin\Debug\net6.0\PR03.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\bin\Debug\net6.0\PR03.pdb
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.csproj.AssemblyReference.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.AssemblyInfoInputs.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.AssemblyInfo.cs
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.csproj.CoreCompileInputs.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\refint\PR03.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.pdb
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\PR03.genruntimeconfig.cache
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR03\PR03\obj\Debug\net6.0\ref\PR03.dll

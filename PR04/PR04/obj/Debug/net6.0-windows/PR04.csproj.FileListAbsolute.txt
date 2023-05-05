@@ -19,3 +19,5 @@ D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR04\PR04\obj\Debug\net6.0-windows
 D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR04\PR04\obj\Debug\net6.0-windows\PR04.pdb
 D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR04\PR04\obj\Debug\net6.0-windows\PR04.genruntimeconfig.cache
 D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR04\PR04\obj\Debug\net6.0-windows\ref\PR04.dll
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR04\PR04\obj\Debug\net6.0-windows\CalendarWindow.g.cs
+D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR04\PR04\obj\Debug\net6.0-windows\CalendarWindow.baml
