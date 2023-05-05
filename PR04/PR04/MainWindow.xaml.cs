@@ -34,10 +34,7 @@ namespace PR04
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             String textBoxValue = textBox.Text.ToLower();
-            if(textBoxValue.Equals("schließen"))
-            {
-                //Do nothing
-            } else
+            if(!textBoxValue.Equals("schließen"))
             {
                 Close(); //Close Application
             }
