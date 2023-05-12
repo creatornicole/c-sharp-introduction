@@ -6,4 +6,4 @@
 | 02 | Classes and Methods |
 | 03 | Arrays, String-Operations, DateTime-Class|
 | 04 | Simple WPF GUI |
-| 05 | |
+| 05 | Implementation of TaskDialog |
