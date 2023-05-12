@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PR05/1.0.0": {
+        "dependencies": {
+          "Microsoft.WindowsAPICodePack": "2.1.0.5"
+        },
+        "runtime": {
+          "PR05.dll": {}
+        }
+      },
+      "Microsoft.WindowsAPICodePack/2.1.0.5": {
+        "runtime": {
+          "Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "2.1.0.5",
+            "fileVersion": "2.1.0.5"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PR05/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAPICodePack/2.1.0.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
