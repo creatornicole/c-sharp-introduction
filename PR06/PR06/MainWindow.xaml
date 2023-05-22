@@ -1,0 +1,19 @@
+﻿<Window x:Class="PR06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR06"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="950">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,101,0,0" TextWrapping="Wrap" Text="Show Content of Directory"
+                    VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Absolute Directory Path..." VerticalAlignment="Top" Width="170"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,185,0,0" TextWrapping="Wrap" Text="Show:" VerticalAlignment="Top" RenderTransformOrigin="4.37,0.519"/>
+        <CheckBox Content="Subdirectories" HorizontalAlignment="Left" Margin="319,215,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Files" HorizontalAlignment="Left" Margin="448,215,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Subdirectories and Files" HorizontalAlignment="Left" Margin="527,215,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
