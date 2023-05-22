@@ -7,20 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Margin="0,152,0,0" TextWrapping="Wrap" Text="Add String to txt-File" VerticalAlignment="Top"/>
+        <!-- Insert Section -->
+        <TextBlock HorizontalAlignment="Left" Margin="181,137,0,0" TextWrapping="Wrap" Text="Add String to txt-File" VerticalAlignment="Top"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="246,193,0,0" TextWrapping="Wrap" Text="String:" VerticalAlignment="Top"/>
-        <TextBox Name="InsertData" HorizontalAlignment="Left" Margin="312,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
+        <TextBlock HorizontalAlignment="Left" Margin="82,178,0,0" TextWrapping="Wrap" Text="String:" VerticalAlignment="Top"/>
+        <TextBox Name="InsertData" HorizontalAlignment="Left" Margin="148,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="246,223,0,0" TextWrapping="Wrap" Text="Path:" VerticalAlignment="Top"/>
-        <TextBox Name="FilePath" HorizontalAlignment="Left" Margin="312,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
-        <TextBlock HorizontalAlignment="Left" Margin="537,223,0,0" TextWrapping="Wrap" Text="\" VerticalAlignment="Top" RenderTransformOrigin="1.067,-1.457"/>
+        <TextBlock HorizontalAlignment="Left" Margin="82,208,0,0" TextWrapping="Wrap" Text="Path:" VerticalAlignment="Top"/>
+        <TextBox Name="FilePath" HorizontalAlignment="Left" Margin="148,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="220"/>
+        <TextBlock HorizontalAlignment="Left" Margin="373,208,0,0" TextWrapping="Wrap" Text="\" VerticalAlignment="Top" RenderTransformOrigin="1.067,-1.457"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="246,253,0,0" TextWrapping="Wrap" Text="txt-File:" VerticalAlignment="Top"/>
-        <TextBox Name="TxtFile" HorizontalAlignment="Left" Margin="312,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
-        <TextBlock HorizontalAlignment="Left" Margin="537,254,0,0" TextWrapping="Wrap" Text=".txt" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="82,238,0,0" TextWrapping="Wrap" Text="txt-File:" VerticalAlignment="Top"/>
+        <TextBox Name="TxtFile" HorizontalAlignment="Left" Margin="148,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
+        <TextBlock HorizontalAlignment="Left" Margin="373,239,0,0" TextWrapping="Wrap" Text=".txt" VerticalAlignment="Top"/>
 
-        <Button Content="Insert" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" Click="Button_Click_Insert"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="219,277,0,0" VerticalAlignment="Top" Click="Button_Click_Insert"/>
+
+        <!-- Read Section -->
+        <TextBlock HorizontalAlignment="Left" Margin="548,132,0,0" TextWrapping="Wrap" Text="Read from txt-File" VerticalAlignment="Top"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="448,178,0,0" TextWrapping="Wrap" Text="File:" VerticalAlignment="Top"/>
+        <TextBox Name="ReadTextBox" HorizontalAlignment="Left" Margin="494,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
+
+        <Button Content="Read" HorizontalAlignment="Left" Margin="595,217,0,0" VerticalAlignment="Top" Click="Button_Click_Read"/>
+        <TextBlock Name="FileData" HorizontalAlignment="Left" Margin="458,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="116" Width="289"/>
+
 
     </Grid>
+
 </Window>

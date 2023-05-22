@@ -51,6 +51,52 @@ namespace PR06_2
 
             //Append String to existing File
             File.AppendAllText(filepath, data + Environment.NewLine);
+
+            //Insert File to which String got appended to Read TextBox
+            ReadTextBox.Text = filepath;
+        }
+
+        /// <summary>
+        /// 
+        /// Read and Display Data from Textfile
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click_Read(object sender, RoutedEventArgs e)
+        {
+            //Empty FileData TextBox
+            FileData.Text = string.Empty;
+
+            //Get Input
+            string readFile = ReadTextBox.Text;
+
+            string res = "";
+            //Check if Input is File
+            if (File.Exists(readFile))
+            {
+                //Create StreamReader to read from file
+                StreamReader sr = new StreamReader(readFile);
+
+                //Safe Filedata in res
+                res += sr.ReadLine();
+
+                while (res != null)
+                {
+                    res += sr.ReadLine();
+                }
+
+                //Close StreamReader
+                sr.Close();
+                
+            } else
+            {
+                res = "Input File.";
+            }
+
+            //Display Filedata/Message
+            FileData.Text = res;
+
         }
     }
 }

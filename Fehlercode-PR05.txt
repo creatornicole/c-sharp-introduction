@@ -1,0 +1,75 @@
+"PR05.exe" (CoreCLR: DefaultDomain): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Private.CoreLib.dll" geladen. Symbole wurden geladen.
+"PR05.exe" (CoreCLR: clrhost): "D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR05\PR05\bin\Debug\net6.0-windows\PR05.dll" geladen. Symbole wurden geladen.
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\PresentationFramework.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\WindowsBase.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\System.Xaml.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.IO.Pipes.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Linq.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Collections.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Console.dll" geladen. Symbole wurden geladen.
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Threading.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Threading.Overlapped.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Security.AccessControl.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Security.Principal.Windows.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.InteropServices.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Security.Claims.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\Microsoft.Win32.Primitives.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.Loader.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\netstandard.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Threading.ThreadPool.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Diagnostics.TraceSource.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\System.IO.Packaging.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Text.RegularExpressions.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Private.Uri.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\PresentationCore.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Collections.Concurrent.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\DirectWriteForwarder.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.Extensions.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.CompilerServices.VisualC.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Memory.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Diagnostics.Debug.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\Microsoft.Win32.Registry.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Collections.NonGeneric.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Collections.Specialized.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.ComponentModel.Primitives.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Threading.Thread.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\System.Configuration.ConfigurationManager.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.InteropServices.RuntimeInformation.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Xml.ReaderWriter.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Private.Xml.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Net.WebClient.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.ComponentModel.EventBasedAsync.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Text.Encoding.Extensions.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.ComponentModel.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.ComponentModel.TypeConverter.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\System.Windows.Extensions.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.ObjectModel.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\UIAutomationTypes.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Diagnostics.Process.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\PresentationFramework.Aero2.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "D:\Stuff\Studium\HSMW\IF21wS1-B\4_c#\praktika\PR05\PR05\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\mscorlib.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.dll" geladen. 
+Ausnahme ausgelöst: "System.OverflowException" in Microsoft.WindowsAPICodePack.dll
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Diagnostics.StackTrace.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Reflection.Metadata.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Collections.Immutable.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\xamldiagnostics\Core\x64\Microsoft.VisualStudio.DesignTools.WpfTap.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Diagnostics.Tracing.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Threading.Tasks.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.Serialization.Json.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Private.DataContractSerialization.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.Serialization.Xml.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Runtime.Serialization.Primitives.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Resources.ResourceManager.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Reflection.Emit.ILGeneration.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Reflection.Emit.Lightweight.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.15\System.Reflection.Primitives.dll" geladen. 
+"PR05.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.15\UIAutomationProvider.dll" geladen. 
+Der Thread 0x5524 hat mit Code 0 (0x0) geendet.
+Der Thread 0x974 hat mit Code 0 (0x0) geendet.
+Der Thread 0x6404 hat mit Code 0 (0x0) geendet.
+Der Thread 0x6bec hat mit Code 0 (0x0) geendet.
