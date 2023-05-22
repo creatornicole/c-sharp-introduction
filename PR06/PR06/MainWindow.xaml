@@ -7,13 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="750" Width="950">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Margin="0,101,0,0" TextWrapping="Wrap" Text="Show Content of Directory"
+        <TextBlock HorizontalAlignment="Center" Margin="0,80,0,0" TextWrapping="Wrap" Text="Show Content of Directory"
                     VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Absolute Directory Path..." VerticalAlignment="Top" Width="170"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,185,0,0" TextWrapping="Wrap" Text="Show:" VerticalAlignment="Top" RenderTransformOrigin="4.37,0.519"/>
-        <CheckBox Content="Subdirectories" HorizontalAlignment="Left" Margin="319,215,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Files" HorizontalAlignment="Left" Margin="448,215,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Subdirectories and Files" HorizontalAlignment="Left" Margin="527,215,0,0" VerticalAlignment="Top"/>
 
+        <TextBlock HorizontalAlignment="Center" Margin="0,120,0,0" TextWrapping="Wrap" Text="Input Absolute Path of Directory:" VerticalAlignment="Top" 
+                   RenderTransformOrigin="4.37,0.519"/>
+        <TextBox Name="AbsPathTextBox" HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,185,0,0" TextWrapping="Wrap" Text="Show:" VerticalAlignment="Top" RenderTransformOrigin="4.37,0.519"/>
+        <CheckBox Name="Subdir_CheckBox" Content="Subdirectories" HorizontalAlignment="Left" Margin="319,215,0,0" VerticalAlignment="Top"/>
+        <CheckBox Name="File_CheckBox" Content="Files" HorizontalAlignment="Left" Margin="448,215,0,0" VerticalAlignment="Top"/>
+        <CheckBox Name="Subdir_File_CheckBox" Content="Subdirectories and Files" HorizontalAlignment="Left" Margin="527,215,0,0" VerticalAlignment="Top"/>
+        
+        <Button Content="Show" HorizontalAlignment="Left" Margin="419,253,0,0" VerticalAlignment="Top" Click="Button_Click_Show"/>
+        <Button Content="Reset Values" HorizontalAlignment="Left" Margin="459,253,0,0" VerticalAlignment="Top" Click="Button_Click_Reset"/>
+
+        <TextBlock Name="OutputTextBlock" HorizontalAlignment="Center" Margin="0,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" 
+            RenderTransformOrigin="4.37,0.519"/>
     </Grid>
 </Window>
