@@ -71,27 +71,14 @@ namespace PR06_2
             //Get Input
             string readFile = ReadTextBox.Text;
 
+            //Read Data
             string res = "";
-            //Check if Input is File
-            if (File.Exists(readFile))
+
+            string[] fileData = File.ReadAllLines(readFile);
+
+            foreach (string line in fileData)
             {
-                //Create StreamReader to read from file
-                StreamReader sr = new StreamReader(readFile);
-
-                //Safe Filedata in res
-                res += sr.ReadLine();
-
-                while (res != null)
-                {
-                    res += sr.ReadLine();
-                }
-
-                //Close StreamReader
-                sr.Close();
-                
-            } else
-            {
-                res = "Input File.";
+                res += line + "\n";
             }
 
             //Display Filedata/Message
