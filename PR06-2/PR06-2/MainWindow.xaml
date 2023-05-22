@@ -1,0 +1,26 @@
+﻿<Window x:Class="PR06_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR06_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,152,0,0" TextWrapping="Wrap" Text="Add String to txt-File" VerticalAlignment="Top"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="246,193,0,0" TextWrapping="Wrap" Text="String:" VerticalAlignment="Top"/>
+        <TextBox Name="InsertData" HorizontalAlignment="Left" Margin="312,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="246,223,0,0" TextWrapping="Wrap" Text="Path:" VerticalAlignment="Top"/>
+        <TextBox Name="FilePath" HorizontalAlignment="Left" Margin="312,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
+        <TextBlock HorizontalAlignment="Left" Margin="537,223,0,0" TextWrapping="Wrap" Text="\" VerticalAlignment="Top" RenderTransformOrigin="1.067,-1.457"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="246,253,0,0" TextWrapping="Wrap" Text="txt-File:" VerticalAlignment="Top"/>
+        <TextBox Name="TxtFile" HorizontalAlignment="Left" Margin="312,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220"/>
+        <TextBlock HorizontalAlignment="Left" Margin="537,254,0,0" TextWrapping="Wrap" Text=".txt" VerticalAlignment="Top"/>
+
+        <Button Content="Insert" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" Click="Button_Click_Insert"/>
+
+    </Grid>
+</Window>
